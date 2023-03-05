@@ -1,4 +1,4 @@
-lista = ["sem luz", "sem agua", "sem nada"]
+lista = []
 opcao = 10
 # Listar reclamacoes
 while opcao != 5:
