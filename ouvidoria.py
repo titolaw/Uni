@@ -10,7 +10,7 @@ while opcao != 5:
     print("4) Pesquisar uma reclamação por código")
     print("5) Sair")
     print()
-    opcao = int(input(print("Bem vindo à ouvidoria. Escolha o número da sua opção: ")))
+    opcao = int(input("Bem vindo à ouvidoria. Escolha o número da sua opção: "))
 
     if opcao == 1:
         if len(lista) == 0:
