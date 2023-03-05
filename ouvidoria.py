@@ -42,6 +42,6 @@ while opcao != 5:
             print(lista[pesquisa - 1])
 
     elif opcao != 5:
-        print()
+        print("Opção inválida")
 
 print("Adeus")
