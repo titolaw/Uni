@@ -49,6 +49,7 @@ while opcao != 5:
     # Pesquisar uma reclamação por código
     elif opcao == 4:
         pesquisa = int(input("Digite o número da reclamação a ser pesquisada: "))
+        print()
         if pesquisa <= 0 or pesquisa > len(lista):
             print("Código inválido")
             print()
