@@ -63,4 +63,4 @@ while opcao != 5:
         print("Opção inválida")
         print()
 
-print("sair")
+print("Adeus! Esperamos ter ajudado.")
