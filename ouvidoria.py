@@ -25,7 +25,7 @@ while opcao != 5:
                 print(f"{index+1}) {item}")
             print()
 
-    # Adcionar novas reclamações
+    # Adicionar novas reclamações
     elif opcao == 2:
         reclame = input("Digite sua reclamação: ")
         lista.append(reclame)
