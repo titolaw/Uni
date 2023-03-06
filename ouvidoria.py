@@ -54,7 +54,6 @@ while opcao != 5:
             print("Código inválido")
             print()
         else:
-            print()
             print(f"a reclamação pesquisada é: {lista[pesquisa - 1]}")
             print()
 
