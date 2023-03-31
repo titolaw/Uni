@@ -27,15 +27,14 @@ while opcao != 5:
             print("===== LISTA DE RECLAMAÇÕES =====")
             print()
             for reclamacao in listaReclamacao:
-                print(f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]} | data: {reclamacao[2]}")
+                print(f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]}")
             print()
 
     elif opcao == 2:
         reclamacao = input("Digite a sua reclamacao: ")
-        data = int(input("Digite a data: "))
         print()
-        inserirReclamacao = 'insert into reclamacao(titulo,data) values(%s,%s)'
-        dados = (reclamacao,data)
+        inserirReclamacao = 'insert into reclamacao(titulo) values(%s)'
+        dados = (reclamacao)
 
         insertNoBancoDados(conexao, inserirReclamacao, dados)
 
@@ -64,7 +63,7 @@ while opcao != 5:
             print("Não existe reclamação com esse código")
         else:
             for reclamacao in listaCodigo:
-                print(f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]} | data: {reclamacao[2]}")
+                print(f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]}")
                 print()
 
 
