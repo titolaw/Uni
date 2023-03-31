@@ -34,7 +34,7 @@ while opcao != 5:
         reclamacao = input("Digite a sua reclamacao: ")
         print()
         inserirReclamacao = 'insert into reclamacao(titulo) values(%s)'
-        dados = (reclamacao)
+        dados = (reclamacao,)
 
         insertNoBancoDados(conexao, inserirReclamacao, dados)
 
