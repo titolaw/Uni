@@ -76,3 +76,5 @@ print()
 print("Até logo. Esperamos ter ajudado.")
 
 encerrarBancoDados(conexao)
+
+#keven max,thiago ribeiro,tiago galego,diogo diniz,tiago tito,odir
