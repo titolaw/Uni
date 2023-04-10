@@ -1,0 +1,6 @@
+- Diogo Diniz Spínola Ribeiro
+- Keven Max Bezerra de Sousa
+- Odir
+- Thiago Ribeiro Ramos Silva
+- Tiago Marques Tito
+- Tiago Ribeiro da Silva
