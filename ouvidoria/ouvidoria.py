@@ -17,7 +17,7 @@ def menu():
     return opcao
 
 def lista(conexao):
-    # checa a existência de dodos no banco e os lista
+    # checa a existência de dados no banco e os lista
     consultaReclamacao = 'select * from reclamacao'
     listaReclamacao = listarBancoDados(conexao, consultaReclamacao)
 
