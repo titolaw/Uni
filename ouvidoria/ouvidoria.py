@@ -17,7 +17,7 @@ def menu():
     return opcao
 
 def lista(conexao):
-    # checa a existência de dados no banco e os lista
+    # checa a existência de dodos no banco e os lista
     consultaReclamacao = 'select * from reclamacao'
     listaReclamacao = listarBancoDados(conexao, consultaReclamacao)
 
@@ -26,7 +26,7 @@ def lista(conexao):
     else:
         reclame = ""
         for reclamacao in listaReclamacao:
-            reclame += f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]}\n"
+            reclame += "codigo: " + str(reclamacao[0]) + " | reclamação: " + reclamacao[1] + "\n"
         return reclame
 
 
@@ -60,4 +60,4 @@ def pesquisarReclamacao(conexao, codigo):
         return "Não existe reclamação com esse código."
     else:
         for reclamacao in listaCodigo:
-            return f"codigo: {reclamacao[0]} | reclamação: {reclamacao[1]}"
+            return "codigo: " + str(reclamacao[0]) + " | reclamação: " + reclamacao[1] + "\n"
