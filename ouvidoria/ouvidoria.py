@@ -52,7 +52,7 @@ def removerReclamacao(conexao, excluir):
         return "Reclamação removida com sucesso."
 
 def pesquisarReclamacao(conexao, codigo):
-    # sql para pesquisar um item no banco de dados
+    # sql para pesquisar um item no banco de dados 
     consultaCodigo = 'select * from reclamacao where id = ' + codigo
     listaCodigo = listarBancoDados(conexao, consultaCodigo)
 
