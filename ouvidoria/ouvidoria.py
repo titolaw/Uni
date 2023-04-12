@@ -26,7 +26,7 @@ def lista(conexao):
     else:
         reclame = ""
         for reclamacao in listaReclamacao:
-            reclame += "código: " + str(reclamacao[0]) + " | reclamação: " + reclamacao[1] + "\n"
+            reclame += f"código: {str(reclamacao[0])} | reclamação: {reclamacao[1]}\n"
         return reclame
 
 
@@ -60,4 +60,4 @@ def pesquisarReclamacao(conexao, codigo):
         return "Não existe reclamação com esse código."
     else:
         for reclamacao in listaCodigo:
-            return "código: " + str(reclamacao[0]) + " | reclamação: " + reclamacao[1] + "\n"
+            return f"código: {str(reclamacao[0])} | reclamação: {reclamacao[1]}\n"

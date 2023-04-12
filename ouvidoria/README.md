@@ -1,6 +1,12 @@
-- Diogo Diniz Spínola Ribeiro
-- Keven Max Bezerra de Sousa
-- Odir
-- Thiago Ribeiro Ramos Silva
-- Tiago Marques Tito
-- Tiago Ribeiro da Silva
+## Descrição
+- Projeto de coleta e armazenamento de dados de ouvidoria. Utilizando integração entre Python e MySQL.
+
+
+## Requerimentos
+- Python 3+
+- MySQL & Workbench
+- mysql.connector:
+```sh
+  pip install mysql-connector
+  ```
+- executar o programa através de main.py
